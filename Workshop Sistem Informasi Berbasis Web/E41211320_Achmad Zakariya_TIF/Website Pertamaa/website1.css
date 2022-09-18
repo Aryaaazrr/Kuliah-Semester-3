@@ -1,0 +1,129 @@
+body {
+	font: 16px arial sans-serif;
+	background-color: lightgrey;
+	color: black;
+}
+
+
+
+.tif {
+	width: 800px;
+	margin: auto;
+	background-color: white;
+}
+
+
+.header {
+	padding: 20px;
+}
+
+
+.header .judul {
+	font-size: 40px;
+	font-weight: bold;
+	color: black;
+	margin-bottom: 10px;
+	margin-top: -2px;
+} 
+
+
+.link {
+	font-size: 12px;
+}
+
+
+.link li {
+	display: inline-block;
+}
+
+
+.header a {
+	text-decoration: underline;
+	color: salmon;
+	margin-left: -30px;
+	margin-right: 40px;
+	margin-bottom: 20px;
+
+}
+
+
+.header a:hover {
+	background-color: lightskyblue;
+	color: white;
+}
+
+.hero {
+	height: 300px;
+	background-image: url(https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80);
+	background-size: cover;
+	background-position: 0 -190px;
+	border-top: 5px solid salmon;
+	border-bottom: 5px solid lightskyblue;
+}
+
+
+.content {
+	padding: 5px;
+}
+
+
+.sejarah {
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	margin-left: 20px;
+}
+
+
+.penulis {
+	font-size: 11px;
+	margin-top: -10px;
+	margin-left: 20px;
+	margin-bottom: 15px;
+}
+
+
+.penulis a {
+	text-decoration: underline;
+	color: salmon;
+	padding: 3px;
+}
+
+
+.penulis a:hover {
+	background-color: lightskyblue;
+	color: white;
+}
+
+
+.paragraf {
+	font-size: 14px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: -5px;
+}
+
+
+.paragraf a {
+	text-decoration-line: underline;
+	color: salmon;
+	padding: 3px;
+}
+
+
+.paragraf a:hover {
+	background-color: lightskyblue;
+	color: white;
+}
+
+
+.footer {
+	background-color: black;
+	padding: 5px;
+}
+
+
+.footer .copy {
+	color: white;
+	text-align: center;
+}
